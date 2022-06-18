@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/main.css">
+
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 50px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution p { color: white;}
+  </style>
+</head>
+<body>
+
+  <section class="l-cards">
+    <div class="card card__person">
+      <div class="card__person__profile">
+        <img class="card__person__profile__img" src="images/image-jeremy.png" alt="">
+        <div>
+          <p>Report for</p>
+          <p class="card__person__profile__name">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="card--person__times">
+        <p class="card--person__daily">Daily</p>
+        <p class="card--person__weekly">Weekly</p>
+        <p class="card--person__monthly">Monthly</p>
+      </div>
+    </div>
+    <div class="card card--work">
+      <img class="card__banner" src="images/icon-work.svg" alt="">
+      <div class="card__content">
+        <header class="card__content__header">
+          <h3 class="card__content__header__title">Work</h3>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </header>
+        <div class="card__content__hours">
+          <h1 class="card__content__hours__current"></h1>
+          <p class="card__content__hours__previous"></p>
+        </div>
+      </div>
+    </div>
+    <div class="card card--play">
+      <img class="card__banner" src="images/icon-play.svg" alt="">
+      <div class="card__content">
+        <header class="card__content__header">
+          <h3 class="card__content__header__title">Work</h3>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </header>
+        <div class="card__content__hours">
+          <h1 class="card__content__hours__current"></h1>
+          <p class="card__content__hours__previous"></p>
+        </div>
+      </div>
+    </div>
+    <div class="card card--study">
+      <img class="card__banner" src="images/icon-study.svg" alt="">
+      <div class="card__content">
+        <header class="card__content__header">
+          <h3 class="card__content__header__title">Work</h3>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </header>
+        <div class="card__content__hours">
+          <h1 class="card__content__hours__current"></h1>
+          <p class="card__content__hours__previous"></p>
+        </div>
+      </div>
+    </div>
+    <div class="card card--exercise">
+      <img class="card__banner" src="images/icon-exercise.svg" alt="">
+      <div class="card__content">
+        <header class="card__content__header">
+          <h3 class="card__content__header__title">Work</h3>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </header>
+        <div class="card__content__hours">
+          <h1 class="card__content__hours__current"></h1>
+          <p class="card__content__hours__previous"></p>
+        </div>
+      </div>
+    </div>
+    <div class="card card--social">
+      <img class="card__banner" src="images/icon-social.svg" alt="">
+      <div class="card__content">
+        <header class="card__content__header">
+          <h3 class="card__content__header__title">Work</h3>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </header>
+        <div class="card__content__hours">
+          <h1 class="card__content__hours__current"></h1>
+          <p class="card__content__hours__previous"></p>
+        </div>
+      </div>
+    </div>
+    <div class="card card--self-care">
+      <img class="card__banner" src="images/icon-self-care.svg" alt="">
+      <div class="card__content">
+        <header class="card__content__header">
+          <h3 class="card__content__header__title">Work</h3>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </header>
+        <div class="card__content__hours">
+          <h1 class="card__content__hours__current"></h1>
+          <p class="card__content__hours__previous"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <script src="js/index.js"></script>
+
+
+  
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
+    <p>Coded by <a href="https://github.com/MuriWolf" target="_blank">Murillo Pinheiro de Oliveira</a></p>.
+  </div>
+</body>
+</html>
